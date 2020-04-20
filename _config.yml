@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Edwin Figueroa
-subtitle: Product Management, Music, Inpsiration and Experimentation
-description: This is the personal journal of Edwin Figueroa.
+title: A Technology Optimist
+subtitle: 
+description: Product Management, Music, Inpsiration and Experimentation
 keywords: Data Product Management, Tech, Writing, Philosophy, Tutorials, Journaling, Sharing, Writing
 author: Edwin Figueroa
 language: en
@@ -62,7 +62,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: thoughts
 category_map:
 tag_map:
 
@@ -93,12 +93,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hiker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: aws-s3
+  region: us-west-2
+  bucket: blog.edfig.me
 
 # hexo-admin authentification
 admin:
